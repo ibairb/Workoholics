@@ -1,0 +1,574 @@
+* {
+    margin: 0px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.burgerMenu {
+    display: none;
+}
+
+@media (min-width:1440px) {
+    .header {
+        margin: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav {
+        width: 50%;
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav ul {
+        width: 25%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    nav ul {
+        list-style: none;
+    }
+
+    nav a {
+        text-decoration: none;
+    }
+
+    .section {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .section div {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 80px;
+    }
+
+    .section div:nth-child(1) {
+        margin-left: 25px;
+        margin-right: 25px;
+        display: flex;
+        justify-content: flex-start;
+        border-bottom: solid 1px;
+        align-items: center;
+    }
+
+    .section div:nth-child(1) h1 {
+        z-index: 1000;
+        margin-left: 15%;
+    }
+
+    .section div:nth-child(2) {
+        margin-left: 25px;
+        margin-right: 25px;
+        display: flex;
+        justify-content: center;
+        border-bottom: solid 1px;
+        position: relative;
+        align-items: center;
+    }
+
+    .section div:nth-child(2) h1 {
+        z-index: 1000;
+    }
+
+    .section div:nth-child(3) {
+        margin-left: 25px;
+        margin-right: 25px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .section div:nth-child(3) h1 {
+        margin-left: 15%;
+    }
+
+    .mug {
+        position: absolute;
+        width: 91%;
+        scale: .7;
+        left: 26%
+    }
+
+    .textContainer {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .text {
+        width: 50%;
+        margin-top: 200px;
+        margin-right: 23px;
+        font-size: large;
+
+
+    }
+
+    .text li {
+        list-style: none;
+    }
+
+    .text li:before {
+        content: "\2022";
+        color: #fb088c;
+        display: inline-block;
+        font-size: 30px;
+        width: 20px;
+        margin-left: -1em;
+    }
+
+    .text p {
+        font-weight: bold;
+    }
+
+    .card1 {
+        width: 40%;
+    }
+
+    .card2 {
+        width: 40%;
+    }
+
+    .cards {
+        margin-left: 25px;
+        margin-top: 100px;
+        position: relative;
+        width: 40%;
+    }
+
+    .cards p {
+        font-size: small;
+        margin-top: 10px;
+    }
+
+    .cards img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        scale: 2;
+        width: 90px;
+        z-index: -1;
+    }
+
+    .buy {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: solid 1px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 50px;
+    }
+
+    .buy div:nth-child(2) {
+        display: flex;
+    }
+
+    .buy .color1 {
+        display: inline-block;
+        width: 15px;
+        height: 7.5px;
+        background: #fb088c;
+    }
+
+    .tshirt {
+        margin-left: 25px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .buy .color2 {
+        display: inline-block;
+        width: 15px;
+        height: 7.5px;
+        background: #212222;
+    }
+
+    .bottle {
+        margin-right: 25px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #bottle {
+        width: 75px;
+    }
+
+    .footer {
+        margin-top: 150px;
+        background: #212222;
+        position: relative;
+    }
+
+    .footer .subtitles {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        margin-left: 24px;
+        font-size: large;
+        font-family: 'DM Sans', sans-serif;
+        color: #fff;
+        height: 100px;
+    }
+
+    .form {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .form div {
+        width: 50%;
+    }
+
+    .footer .subtitles div {
+        position: absolute;
+        bottom: 0;
+        width: 50%;
+    }
+
+    .input-box {
+        margin-right: 125px;
+        margin-top: 50px;
+        border-bottom: solid 1px #fff;
+        position: relative;
+    }
+
+    .input-box input {
+        border-bottom: solid 1px;
+        width: 100%;
+        background: transparent;
+        border: none;
+
+    }
+
+    .input-box label {
+        color: grey;
+        position: absolute;
+        width: 100%;
+        top: -15px;
+    }
+
+    .checkbox {
+        margin-top: 25px;
+        font-size: small;
+        display: flex;
+        text-align: center;
+        position: relative;
+
+    }
+
+    .checkbox p {
+        margin-left: 20px;
+        color: #fff;
+        position: absolute;
+    }
+
+    .checkbox a {
+        color: #fff;
+    }
+
+    .submit {
+        color: #fff;
+        display: flex;
+        margin-top: 40px;
+    }
+
+    .contact {
+        position: absolute;
+        top: 0;
+        margin-left: 50px;
+        margin-top: 50px;
+        color: #fff;
+        font-size: small;
+    }
+
+    .contactus {
+        position: fixed;
+        top: 59%;
+        display: flex;
+        flex-direction: column;
+        left: 91%;
+        transform: rotate(90deg);
+    }
+
+    .contactus span {
+        margin: 5px;
+        display: inline-block;
+        width: 30px;
+        height: 5px;
+        background: #fb088c;
+    }
+
+}
+
+
+@media (max-width: 375px) {
+    .header {
+        margin: 1px;
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+
+    }
+
+    .nav {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        list-style: none;
+        height: 100px;
+    }
+
+    nav a {
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .logo {
+        margin: 5px;
+        width: 1px;
+        scale: .2;
+        justify-content: flex-start;
+        position: absolute;
+        height: 1px;
+        top: 5px;
+
+    }
+
+    .burgerMenu {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 10px;
+    }
+
+    .burgerMenu.active {
+        display: none;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section div {
+        height: 83px;
+        font-size: 30px;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    .section div:nth-child(1) {
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: flex-end;
+        border-bottom: solid 1px;
+        align-items: center;
+    }
+
+    .section div:nth-child(1) h1 {
+        z-index: 1000;
+    }
+
+    .section div:nth-child(2) {
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: flex-start;
+        border-bottom: solid 1px;
+        position: relative;
+        align-items: center;
+    }
+
+    .section div:nth-child(3) {
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .mug {
+        position: absolute;
+        width: 100%;
+        scale: .3;
+    }
+
+    .text {
+        margin-top: 5px;
+        font-size: small;
+    }
+
+    .text li {
+        list-style: none;
+    }
+
+    .text li:before {
+        content: "\2022";
+        color: #fb088c;
+        display: inline-block;
+        font-size: 30px;
+        width: 20px;
+        margin-left: -1em;
+    }
+
+    .text p {
+        font-weight: bold;
+    }
+
+    .cards {
+        margin-left: 7px;
+        margin-top: 100px;
+        position: relative;
+    }
+
+    .cards p {
+        font-size: small;
+        margin-top: 10px;
+    }
+
+    .buy {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: solid 1px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 50px;
+    }
+
+    .buy div:nth-child(2) {
+        display: flex;
+    }
+
+    .buy .color1 {
+        display: inline-block;
+        width: 15px;
+        height: 7.5px;
+        background: #fb088c;
+    }
+
+    .buy .color2 {
+        display: inline-block;
+        width: 15px;
+        height: 7.5px;
+        background: #212222;
+    }
+
+    .cards img {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        scale: 1.5;
+        width: 90px;
+        z-index: -1;
+    }
+
+    .buy {
+        display: flex;
+        border-bottom: solid 1px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 50px;
+    }
+
+    .buy span {
+        margin-left: 10px;
+
+    }
+
+    #bottle {
+        width: 75px;
+    }
+
+    .footer {
+        margin-top: 150px;
+        background: #212222;
+    }
+
+    .footer .subtitles {
+        position: relative;
+        margin-left: 5px;
+        font-size: small;
+        font-family: 'DM Sans', sans-serif;
+        color: #fff;
+        height: 100px;
+    }
+
+    .footer .subtitles div {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .input-box {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 50px;
+        border-bottom: solid 1px #fff;
+        position: relative;
+    }
+
+    .input-box input {
+        border-bottom: solid 1px;
+        width: 100%;
+        background: transparent;
+        border: none;
+
+    }
+
+    .input-box label {
+        color: grey;
+        position: absolute;
+        width: 100%;
+        top: -15px;
+    }
+
+    .checkbox {
+        margin: 10px;
+        font-size: small;
+        display: flex;
+        text-align: center;
+        position: relative;
+
+    }
+
+    .checkbox p {
+        margin-left: 20px;
+        color: #fff;
+        position: absolute;
+    }
+
+    .checkbox a {
+        color: #fff;
+    }
+
+    .submit {
+        color: #fff;
+        display: flex;
+        margin-top: 23px;
+
+    }
+
+    .contact {
+        margin-left: 10px;
+        margin-top: 46px;
+        color: #fff;
+        font-size: small;
+    }
+
+    .contactus {
+        display: none;
+    }
+}
