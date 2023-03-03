@@ -38,6 +38,16 @@
         text-decoration: none;
     }
 
+    nav a:visited {
+        color: #212222;
+
+    }
+
+    nav a:link {
+        color: #212222;
+
+    }
+
     .section {
         margin-left: 25px;
         margin-right: 25px;
